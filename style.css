@@ -1307,3 +1307,581 @@ html,body{
 #nine .footer .row-3 a{
     color: white;
 }
+
+#main-mobile{
+    display: none;
+}
+#second-mobile{
+    display: none;
+}
+#third-mobile{
+    display: none;
+}
+#four-mobile{
+    display: none;
+}
+#five-mobile{
+    display: none;
+}
+#six-mobile{
+    display: none;
+}
+#seven-mobile{
+    display: none;
+}
+#eight-mobile{
+    display: none;
+}
+#nine-mobile{
+    display: none;
+}
+
+/* mobile screen */
+
+@media (min-width: 320px)  and (max-width:480px){
+    #main{
+        display: none;
+    }
+
+    #second{
+        display: none;
+    }
+    #third{
+        display: none;
+    }
+    #four{
+        display: none;
+    }
+    #five{
+        display: none;
+    }
+    #six{
+        display: none;
+    }
+    #seven{
+        display: none;
+    }
+    #eight{
+        display: none;
+    }
+    #nine{
+        display: none;
+    }
+/* --------------main----------------------- */
+    #main-mobile{
+        display: block;
+        padding: 5vw;
+    }
+
+    #main-mobile .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4vw;
+    }
+
+    #main-mobile .navbar .content{}
+    
+    #main-mobile  .content h1{
+        margin-top: 6vw;
+    }
+    #main-mobile  .content img {
+        margin-top: 6vw;
+    }
+
+    #main-mobile  .content p{
+        margin-top: 6vw;
+    }
+
+    #main-mobile  .content button{
+        margin-top: 6vw;
+        color: white;
+        background-color: black;
+        padding:  5vw 11vw;
+        font-size: 6vw;
+        border-radius: 5vw;
+    }
+
+    #main-mobile .footer{
+        margin-top: 10vw;
+    }
+
+    #main-mobile .footer .logo{
+        display: flex;
+        gap: 10vw;
+        margin-left: 6vw;
+    }
+    #main-mobile .footer .logo li{
+        list-style: none;
+    }
+
+   /* ---------------second------------------------ */
+    
+    #second-mobile{
+        display: block;
+        padding: 5vw;
+    }
+
+    #second-mobile .second-mobile-header{
+        text-align: center;
+    }
+    #second-mobile .second-mobile-header h1{
+        background-color: greenyellow;
+        display: inline;
+    }
+    #second-mobile .second-mobile-header p{
+        margin-top: 6vw;
+    }
+
+    #second-mobile .second-mobile-footer{
+        margin-top: 6vw;
+    }
+
+    #second-mobile .second-mobile-footer .div1{
+        border: 2px solid black;
+        padding: 7vw;
+        background-color: #F3F3F3;
+        border-radius: 7vw;
+        margin-top: 8vw;
+        -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.9);
+        -moz-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.9);
+        box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.9);
+    }
+
+    #second-mobile .second-mobile-footer .div1 .first h1{
+        background-color: greenyellow;
+        display: inline;
+        border-radius: 2vw;
+        padding: 1vw;
+    }
+
+    #second-mobile .second-mobile-footer .div1 .second{
+        margin-top: 15vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #second-mobile .second-mobile-footer .div1 .second .left{
+        margin-top: 20vw
+    }
+
+
+    #second-mobile .second-mobile-footer .div2{
+        border: 2px solid black;
+        padding: 7vw;
+        background-color: greenyellow;
+        border-radius: 7vw;
+        margin-top: 8vw;
+        -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.9);
+        -moz-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.9);
+        box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.9);
+    }
+
+    #second-mobile .second-mobile-footer .div2 .first h1{
+        background-color: white;
+        display: inline;
+        border-radius: 2vw;
+        padding: 1vw;
+    }
+
+    #second-mobile .second-mobile-footer .div2 .second{
+        margin-top: 15vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #second-mobile .second-mobile-footer .div2 .second .left{
+        margin-top: 20vw
+    }
+
+
+    #second-mobile .second-mobile-footer .div3{
+        border: 2px solid black;
+        padding: 7vw;
+        background-color: black;
+        border-radius: 7vw;
+        margin-top: 8vw;
+        -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.9);
+        -moz-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.9);
+        box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.9);
+    }
+
+    #second-mobile .second-mobile-footer .div3 .first h1{
+        background-color: white;
+        display: inline;
+        border-radius: 2vw;
+        padding: 1vw;
+
+    }
+
+    #second-mobile .second-mobile-footer .div3 .second{
+        margin-top: 15vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #second-mobile .second-mobile-footer .div3 .second .left{
+        margin-top: 20vw
+    }
+
+    /* ---------------third------------------------ */
+    
+    #third-mobile{
+        display: block;
+        padding: 5vw;
+        
+    }
+
+    #third-mobile .text{
+        padding: 5vw;
+        background-color: #F3F3F3;
+        border-radius: 7vw;
+    }
+
+    #third-mobile .text h2{}
+    #third-mobile .text p{
+        margin-top: 6vw;
+    }
+    #third-mobile .text button{
+        margin-top: 6vw;
+        color: white;
+        background-color: black;
+        padding:  5vw 11vw;
+        font-size: 6vw;
+        border-radius: 5vw;
+        
+    }
+
+    /* ---------------four------------------------ */
+    
+    #four-mobile{
+        display: block;
+        padding: 5vw;
+    }
+
+    #four-mobile .second-mobile-header{
+        text-align: center;
+    }
+    #four-mobile .second-mobile-header h1{
+        background-color: greenyellow;
+        display: inline;
+    }
+    #four-mobile .second-mobile-header p{
+        margin-top: 6vw;
+    }
+    
+    #four-mobile .second-mobile-footer{
+        margin-top: 6vw;
+        border-radius: 5vw;
+        background-color: black;  
+        padding: 7vw;
+    }
+
+    #four-mobile .second-mobile-footer .first p{
+        color: white;
+    }
+
+    #four-mobile .second-mobile-footer .second{
+        display:flex;
+        gap: 4vw;
+        margin-top: 6vw;
+    }
+
+    #four-mobile .second-mobile-footer .second h2{color: greenyellow;}
+
+    /* ---------------five------------------------ */
+    
+    #five-mobile{
+        display: block;
+        padding: 5vw;
+    }
+
+    #five-mobile .second-mobile-header{
+        text-align: center;
+    }
+    #five-mobile .second-mobile-header h1{
+        background-color: greenyellow;
+        display: inline;
+    }
+    #five-mobile .second-mobile-header p{
+        margin-top: 6vw;
+    }
+    #five-mobile .second-mobile-footer .div6{
+        display: flex;
+        align-items: center;
+        border-radius: 6vw;
+        justify-content: space-between;
+        border: 1px solid black;
+        padding: 3vw;
+        margin-top: 5vw;
+        -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.9);
+        -moz-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.9);
+        box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.9);
+    }
+
+    /* ---------------six------------------------ */
+    
+    #six-mobile{
+        display: block;
+        padding: 5vw;
+    }
+
+    #six-mobile .second-mobile-header{
+        text-align: center;
+    }
+    #six-mobile .second-mobile-header h1{
+        background-color: greenyellow;
+        display: inline;
+    }
+    #six-mobile .second-mobile-header p{
+        margin-top: 6vw;
+    }
+
+    #six-mobile .second-mobile-footer  .div1 { 
+        border: 2px solid black;
+        padding: 4vw ;
+        margin-top: 5vw;
+        border-radius: 8vw;
+        -webkit-box-shadow: 0px 9px 0px 0px rgba(0,0,0,0.9);
+            -moz-box-shadow: 0px 9px 0px 0px rgba(0,0,0,0.9);
+            box-shadow: 0px 9px 0px 0px rgba(0,0,0,0.9);
+    }
+    #six-mobile .second-mobile-footer .div1 .div1-1{
+        display: flex;
+        gap: 4vw;
+    }
+    #six-mobile .second-mobile-footer .div1 .div1-1 .name{
+        margin-top: 10vw;
+    
+    }
+    
+    #six-mobile .second-mobile-footer .div1 .div1-1 .name .name-1{
+        font-weight: 600;
+    }
+
+    #six-mobile .second-mobile-footer  .div1 .div1-1 .name .name-2{
+    }
+    #six-mobile .second-mobile-footer  .div1 .div1-2{
+        border-top: 2px solid black;
+        margin-top: 7vw;
+    }
+    
+    #six-mobile .second-mobile-footer   .div1 .div1-2 p{
+        padding-top: 7vw;
+    }
+
+    #six-mobile button{
+        margin-top: 8vw;
+            color: white;
+            background-color: black;
+            padding:  5vw 24vw;
+            font-size: 6vw;
+            border-radius: 5vw;
+        }
+
+    /* ---------------seven------------------------ */
+    
+    #seven-mobile{
+        display: block;
+        padding: 5vw;
+    }
+
+    #seven-mobile .second-mobile-header{
+        text-align: center;
+    }
+    #seven-mobile .second-mobile-header h1{
+        background-color: greenyellow;
+        display: inline;
+    }
+    #seven-mobile .second-mobile-header p{
+        margin-top: 6vw;
+    }
+    
+    #seven-mobile .second-mobile-footer{
+        background-color: black;
+        padding: 5vw;
+        border-radius: 6vw;
+        margin-top: 6vw;
+    }
+
+    #seven-mobile .second-mobile-footer .text{}
+
+    #seven-mobile .second-mobile-footer .text p{
+        color: white;
+        border: 2px solid greenyellow;
+        border-radius: 6vw;
+        padding: 5vw;
+    }
+
+    #seven-mobile .second-mobile-footer .text .name-1{
+        color: greenyellow;
+        margin-top: 6vw;
+        margin-left: 5vw;
+    }
+
+    #seven-mobile .second-mobile-footer .text .name-2{
+        color: white;
+        margin-left: 5vw;
+    }
+
+    #seven-mobile .second-mobile-footer .text img{
+        width: 90%;
+        margin-top: 8vw;
+    }
+
+    /* ---------------eight------------------------ */
+    
+    #eight-mobile{
+        display: block;
+        padding: 5vw;
+    }
+
+    #eight-mobile .second-mobile-header{
+        text-align: center;
+    }
+    #eight-mobile .second-mobile-header h1{
+        background-color: greenyellow;
+        display: inline;
+    }
+    #eight-mobile .second-mobile-header p{
+        margin-top: 6vw;
+    }
+
+    #eight-mobile .second-mobile-footer .form{
+        padding: 5vw;
+        border-radius: 6vw;
+        background-color: #F3F3F3;
+        margin-top: 6vw;
+    }
+    
+    #eight-mobile .second-mobile-footer .form .row-1{
+        display: flex;
+        gap: 3vw;
+    }
+    #eight-mobile .second-mobile-footer .form .row-1 .radio-1{
+        height: 5.5vw;
+        width: 5.5vw;
+    }
+    #eight-mobile .second-mobile-footer .form .row-1 .radio-2{
+        height: 5.5vw;
+        width: 5.5vw;
+        margin-left: 2vw;
+    }
+    
+    #eight-mobile .second-mobile-footer .form .row-2{
+        margin-top: 5vw
+    }
+    
+    #eight-mobile .second-mobile-footer .form .row-2 .name{
+        margin-top: 1vw;
+        width: 80vw;
+        font-size: 4vw;
+        padding: 5vw;
+        border: 1.5px solid black;
+        border-radius: 3vw;
+        border: none;
+    }
+    
+    #eight-mobile .second-mobile-footer .form .row-3{
+        margin-top: 5vw;
+    }
+    
+    #eight-mobile .second-mobile-footer .form .row-3 .email{
+        margin-top: 1vw;
+        width: 80vw;
+        font-size: 4vw;
+        padding: 5vw;
+        border: 1.5px solid black;
+        border-radius: 3vw;
+        border: none;
+    }
+    
+    
+    #eight-mobile .second-mobile-footer .form .row-4{
+        margin-top: 5vw;
+    }
+    #eight-mobile .second-mobile-footer .form .row-4 .message{
+        margin-top: 1vw;
+        width: 80vw;
+        font-size: 4vw;
+        padding: 5vw 5vw 15vw 5vw;
+        border: 1.5px solid black;
+        border-radius: 3vw;
+        border: none;
+    }
+
+    #eight-mobile .second-mobile-footer button{
+        margin-top: 10vw;
+        color: white;
+        background-color: black;
+        padding:  7vw 20vw;
+        font-size: 6vw;
+        border-radius: 5vw;
+    }
+
+    /* ---------------nine------------------------ */
+    
+    #nine-mobile{
+        display: block;
+        padding: 5vw;
+        background-color: black;
+        padding: 5vw 4vw;
+    }
+
+    #nine-mobile  .text-1{
+        text-align: center;
+        margin-top: 6vw;
+    }
+    #nine-mobile  .text-1 img{
+    
+    }
+    #nine-mobile  .text-1 h3{
+        text-align: center;
+        color: white;
+        margin-top: 6vw;
+    }
+
+    #nine-mobile  .text-1 h2{
+        text-align: center;
+        margin-top: 5vw;
+        display: inline-block;
+        background-color: greenyellow;
+        padding: 1vw;
+        border-radius: 2vw;
+    }
+    #nine-mobile  .text-1 .email-box{
+        background-color: #292A32;
+        margin-top: 6vw;
+        padding: 5vw;
+        border-radius: 4vw;
+    }
+    #nine-mobile  .text-1 .email-box .email{
+        margin-top: 1vw;
+        background-color: #292A32;
+        width: 80vw;
+        font-size: 5vw;
+        padding: 5vw;
+        border: 2px solid white;
+        border-radius: 3vw;
+        color: white;
+    }
+
+    #nine-mobile  .text-1 .email-box .button{
+        margin-top: 3vw;
+        background-color: greenyellow;
+        width: 80vw;
+        font-size: 5vw;
+        padding: 5vw;
+        border-radius: 3vw;
+    }
+    #nine-mobile  .text-1 .footer-img{}
+
+    #nine-mobile  .text-2{
+        border-top: 2px solid white;
+
+    }
+    #nine-mobile  .text-2 p{
+        color: white;
+        text-align: center;
+        margin-top: 5vw;
+    }
+}
